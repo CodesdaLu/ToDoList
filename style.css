@@ -1,0 +1,24 @@
+
+h2{
+    display: flex;
+    justify-content: center;
+    
+}
+#txt{
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.item-complete:checked + #txt{
+    background-color: #dddd;
+    text-decoration: line-through;
+}
+
+
+#add {
+    padding: 5px 8px;
+    font-weight: bold;  
+    color: #ffff;
+    background-color: rgb(18, 83, 62);
+    cursor: pointer;
+}
